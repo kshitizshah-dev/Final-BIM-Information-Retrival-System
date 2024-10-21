@@ -1,0 +1,79 @@
+/* General reset and base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-image: url(https://wallpapercave.com/wp/wp4064399.png);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #02080e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:hover {
+    background-color: #ecf0f1;
+}
+
+li span {
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #021827;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    a {
+        font-size: 1em;
+    }
+}
